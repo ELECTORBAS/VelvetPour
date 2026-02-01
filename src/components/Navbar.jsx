@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <div>
-        <nav className='flex flex-col justify-between items-center h-16 md:flex-row'>
+        <nav className='flex flex-col justify-between items-center h-16 md:flex-row px-10'>
             <a href="/" className='flex items-center gap-2'>
                 <img src="/images/logo.png" alt="" />
                 <p>Velvet Pour</p>

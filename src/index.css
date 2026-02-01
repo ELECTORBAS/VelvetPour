@@ -23,6 +23,9 @@ body {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+html::-webkit-scrollbar {
+    display: none;
+}
 
 @utility flex-center {
     @apply flex justify-center items-center;
